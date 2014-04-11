@@ -1,4 +1,4 @@
-require 'active_record_lite/04_associatable'
+require '03_associatable'
 
 describe "AssocOptions" do
   describe "BelongsToOptions" do

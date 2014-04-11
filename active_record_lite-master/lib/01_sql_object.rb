@@ -1,6 +1,4 @@
 require_relative 'db_connection'
-require_relative '01_mass_object'
-require_relative '00_attr_accessor_object'
 require 'active_support/inflector'
 
 class MassObject
@@ -12,7 +10,6 @@ class MassObject
   end
 end
 
-#Helpful notes -- SQL queries all return array of hashes
 
 class SQLObject < MassObject
 
